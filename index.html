@@ -245,8 +245,10 @@
    <div class="row">
      <div class="col-sm-12 header stick" >
       <div class="chat-header">
-       <h6 class="user-title">Benjamin Button</h6></div>
-       <div class="uiSelector"><a class="" role="button"><i id="closechat" class="fa fa-times"></i></a></div>
+       <h6 class="user-title">Benjamin Button</h6>
+        <i id="closechat" class="fa fa-times"></i>
+      </div>
+       <div class="uiSelector"><a class="" role="button"></a></div>
      </div>
      <div class="chatter-wrap">
      <div class="col-sm-12 display-box">
@@ -675,6 +677,15 @@ $("#closechat").click(function() {
 
 $("#chatmessage").click(function() {
   $("div.chatbox").removeClass( "close-chat");
+  
+  if($('div.chatbox').hasClass('minimize-chat')){
+      $('div.chatbox').removeClass('minimize-chat');
+  }
+
+  if($('div.chatter-wrap').hasClass('close-chat')) {
+    $('div.chatter-wrap').removeClass('close-chat');
+    $('div.stick').removeClass('stick-bottom');
+  }
 
 });
 
