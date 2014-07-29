@@ -482,7 +482,7 @@ fieldset[disabled] .btn-message.active {
 }
 
 .chat-header {
-	width: 93%;
+	width: 100%;
 	display: inline-block;
 }
 
@@ -518,7 +518,10 @@ fieldset[disabled] .btn-message.active {
 	
 }
 
-
+#closechat {
+	margin-left: 161px;
+	color: white;
+}
 
 /*This is for the Matches Tab*/
 
@@ -885,6 +888,7 @@ color: white;
     }
 
     .custom-dropdown__select {
+    	padding-left: 10px;
         padding-right: 2.5em; /* accommodate with the pseudo elements for the dropdown arrow */
         border: 0;
         border-radius: 3px;
@@ -956,7 +960,7 @@ color: white;
 /*Preview*/
 
 .preview {
-	
+	margin-left: 24px;
 }
 
 #phoneoutline {
