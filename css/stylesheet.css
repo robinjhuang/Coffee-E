@@ -775,8 +775,9 @@ margin: 0 auto;
 margin-top: 10px;
 width: 100px;
 background: #27AE60;
+background: rgb(150, 205, 128);
 font-weight: bold;
-color: white;
+color: #666;
 border: 0 none;
 border-radius: 1px;
 cursor: pointer;
@@ -784,13 +785,14 @@ padding: 10px 5px;
 
 }
 #msform .action-button:hover, #msform .action-button:focus {
-box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+box-shadow: 0 0 0 2px white, 0 0 0 3px rgb(150, 205, 128);
 }
 /*headings*/
 .fs-title {
 font-size: 15px;
 text-transform: uppercase;
 color: #2C3E50;
+color: rgb(150, 205, 128);
 margin-bottom: 10px;
 }
 .fs-subtitle {
@@ -848,7 +850,8 @@ content: none;
 /*The number of the step and the connector before it = green*/
 #progressbar li.active:before, #progressbar li.active:after {
 background: #27AE60;
-color: white;
+background: rgb(150, 205, 128);
+color: #666;
 }
 
 /* This is the select dropdown*/
@@ -873,7 +876,8 @@ color: white;
 
 .custom-dropdown__select--green {
 	background-color: #27AE60;
-	color: black;
+	background: rgb(150, 205, 128);
+	color: #666;
 }
 
 @supports (pointer-events: none) and
@@ -943,7 +947,9 @@ color: white;
      .custom-dropdown--green::before {
         top: .5em; bottom: .5em;
         background-color: #27AE60;
+        background: rgb(150, 205, 128);
         border-left: 1px solid #27AE60;
+        border-left: 1px solid rgb(150, 205, 128);
     }
 
     .custom-dropdown--green::after {
@@ -986,7 +992,7 @@ color: white;
 }
 
 .holder3 {
-	height: 67px;
+	height: 75px;
 }
 
 .preview_description {
